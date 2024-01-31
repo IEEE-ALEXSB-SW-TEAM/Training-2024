@@ -1,8 +1,17 @@
 # Databases
 
 # Table of Contents
-[0- dataset]()   
-[1- what and why ?]()
+[0- dataset](#dataset)   
+[1- what and why ?](#what&why)   
+[2- what is DBMS & their types??](#dbms)   
+[3- relational DBMS](#rdbms)   
+[4- ACID properties](#acid)   
+[5- MYSQL](#mysql)   
+[6- database modeling](#model)   
+[7- employee example](#employee)   
+[8- connect to MySQL](#connect)   
+[9- sql tutorial](#sql)   
+[10- registration system](#registration)   
 
 ## Dataset
 <img align="right" width=300 src="./images/employees-schema.png">
@@ -12,6 +21,7 @@ it's basic database with 6 tables describing employees information, their depart
 you can see the database schema on the right.
 you can see more about it and how to intall on [github repo](https://github.com/datacharmer/test_db) or [mysql website](https://dev.mysql.com/doc/employee/en/)
 
+<a id="what&why"></a>
 ## what is a database?
 A database is a structured collection of data that is organized and stored in a way that allows for efficient retrieval, management, and manipulation of that data. It serves as a central repository for storing and managing information, making it easier to organize, update, and retrieve data when needed.
 
@@ -31,6 +41,7 @@ but why not to use just files or even papers ??
 - Concurrency Control
 - there are many other reasons
 
+<a id="dbms"></a>
 ## what is database managment system (DBMS)?
 A Database Management System (DBMS) is software that facilitates the creation, organization, retrieval, and management of data in a database. It acts as an interface between the database and the users or applications, providing tools for defining, querying, and manipulating the data stored in the database. The DBMS ensures data integrity, security, and efficient management of resources.
 
@@ -52,6 +63,7 @@ we will mention here some common types:
 4- Graph DBMS   
 5- in-memory DBMS   
 
+<a id="rdbms"></a>
 ## Relational DBMS
 A Relational Database Management System (RDBMS) is a type of database management system that organizes data into tables, which consist of rows and columns.   
 what is relational algebra ??    
@@ -65,6 +77,7 @@ The first commercially available RDBMS was Oracle, which was released in 1979 by
 4- Keys   
 5- Relationships   
 
+<a id="acid"></a>
 ## ACID properties
 
 <img width=300 align="right" src="./images/acid.png">
@@ -84,6 +97,7 @@ MySQL is an open-source relational database management system (RDBMS) that uses 
 
 Just remember the password carefully.
 
+<a id="model"></a>
 ## database modeling
 Database modeling is the process of creating a data model for a database. A data model is a visual or mathematical representation of the data structures and relationships within a database system. The primary goal of database modeling is to define the structure of the database in a way that accurately represents the information that it is intended to store and manage.
 
@@ -102,7 +116,7 @@ Database modeling is the process of creating a data model for a database. A data
 
 ***Physical Modeling:*** Define how the logical model will be implemented in the physical storage of the database, considering factors like indexing, partitioning, and data types.
 
-
+<a id="employee"></a>
 ## Employee examples
 A CEO of a famous cooperation reached you to design a database sytem for them.   
 he needs to save data about the employees in each department and their titles.   
@@ -124,6 +138,8 @@ Using the normalization
 
 **Step5: actuale db schema**
 see [here](./test_db/employees.sql)
+
+<a id="connect"></a>
 ## connect to mysql
 
 - using mysql cli  
@@ -139,6 +155,7 @@ install mysql connector ```python3 -m pip install mysql-connector-python```
 see this demo script [here](./db_script.py)   
 make sure you define a .env file first 
 
+<a id="sql"></a>
 ## Fastest sql tutorial
 <img align="right" width=300 src="./images/sql.gif">
 
@@ -169,4 +186,5 @@ we need to get/insert data from/into the database, that's our main goal.
 see examples [here](./examples.sql)   
 more examples [here](https://gist.github.com/wgopar/a613fe6152c217f1c6faeca39c2b2c39) and [here](https://github.com/bmonroe44/MySQL-for-BI/blob/master/employee%20database%20queries.sql)
 
+<a id="registration"></a>
 ## Registration system
