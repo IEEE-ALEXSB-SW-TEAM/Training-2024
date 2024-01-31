@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# .env file (environment variables)
+.env
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Compiled Python files
+*.pyc
+
+# Compiled C extension
+*.so
+
+# User-specific files
+*.rsuser
+*.rsuser.lock
+*.suo
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile
+Pipfile.lock
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# db.sqlite3 file for Django projects
+db.sqlite3
+
+# Log files
+*.log
+
+# py.test
+__pycache__/
+*.pyc
+
+# env files
+.env.local
+.env.development
+.env.test
+.env.production

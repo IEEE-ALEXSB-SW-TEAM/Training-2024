@@ -118,8 +118,11 @@ let's convert these requirements to ERD.
 **Step3: ERD to relational**   
 [nice article](https://medium.com/@kumarjai2466/er-to-relational-mapping-ac84b3c9f258)
 
-**Step4: normalize if needed**   
-**Step5: actuall db schema**
+**Step4: normalize if needed**
+Using the normalization  
+[here](https://www.freecodecamp.org/news/database-normalization-1nf-2nf-3nf-table-examples/)
+
+**Step5: actuale db schema**
 see [here](./test_db/employees.sql)
 ## connect to mysql
 
@@ -136,11 +139,34 @@ install mysql connector ```python3 -m pip install mysql-connector-python```
 see this demo script [here](./db_script.py)   
 make sure you define a .env file first 
 
-## fastest sql tutorial
-we need to get data from the database.
-
-
+## Fastest sql tutorial
 <img align="right" width=300 src="./images/sql.gif">
 
+- DDL vs DML??   
+- [crud operations](https://www.devart.com/dbforge/sql/sqlcomplete/crud-operations-in-sql.html)   
+
+we need to get/insert data from/into the database, that's our main goal.   
+
+<font size="3">***let's take a look about***</font>    
+**SELECT:** Specifies the columns to retrieve in a query.
+
+**FROM:** Specifies the table or tables from which to retrieve the data.
+
+**JOIN:** Combines rows from two or more tables based on a related column between them.
+
+**ON:** Specifies the condition for the join, indicating how the tables are related.
+
+**WHERE:** Filters the rows based on a specified condition.
+
+**GROUP BY:** Groups the result set by one or more columns, often used with aggregate functions.
+
+**HAVING:** Filters the grouped rows based on a specified condition, similar to WHERE but for aggregated data.
+
+**ORDER BY:** Sorts the result set based on one or more columns, either in ascending or descending order.
+
+**LIMIT:** Specifies the maximum number of rows to return in the result set.
+
+see examples [here](./examples.sql)   
+more examples [here](https://gist.github.com/wgopar/a613fe6152c217f1c6faeca39c2b2c39) and [here](https://github.com/bmonroe44/MySQL-for-BI/blob/master/employee%20database%20queries.sql)
 
 ## Registration system
