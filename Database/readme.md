@@ -11,7 +11,6 @@
 [7- employee example](#employee)   
 [8- connect to MySQL](#connect)   
 [9- sql tutorial](#sql)   
-[10- registration system](#registration)   
 
 ## Dataset
 <img align="right" width=300 src="./images/employees-schema.png">
@@ -145,7 +144,7 @@ see [here](./test_db/employees.sql)
 - using mysql cli  
 run ```mysql -h <host-name> -P <port> -u <user-name> -p```   
 then enter your password
-for example: ```mysql -h mysql-162195-0.cloudclusters.net -P 19994 -u admin -p```
+for example: ```mysql -h mysql-162195-0.cloudclusters.net -P 19994 -u test_user -p```
 - using workbench   
 open workbench and sign in.
 - using phpmyadmin   
@@ -157,6 +156,7 @@ make sure you define a .env file first
 
 <a id="sql"></a>
 ## Fastest sql tutorial
+see this crash course (personal recommendation) [here](https://www.youtube.com/watch?v=7S_tz1z_5bA)
 <img align="right" width=300 src="./images/sql.gif">
 
 - DDL vs DML??   
@@ -185,6 +185,3 @@ we need to get/insert data from/into the database, that's our main goal.
 
 see examples [here](./examples.sql)   
 more examples [here](https://gist.github.com/wgopar/a613fe6152c217f1c6faeca39c2b2c39) and [here](https://github.com/bmonroe44/MySQL-for-BI/blob/master/employee%20database%20queries.sql)
-
-<a id="registration"></a>
-## Registration system
