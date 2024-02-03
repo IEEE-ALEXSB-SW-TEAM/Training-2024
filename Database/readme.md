@@ -30,7 +30,7 @@ we have many business reasons to use database and keep data as:
 - Sales and Marketing
 - Human Resources (HR)
 - E-commerce and Online Transactions  
-- there asre many other reasons
+- there are many other reasons
 
 but why not to use just files or even papers ??
 - Data Organization and Storage
@@ -41,16 +41,16 @@ but why not to use just files or even papers ??
 - there are many other reasons
 
 <a id="dbms"></a>
-## what is database managment system (DBMS)?
+## what is database management system (DBMS)?
 A Database Management System (DBMS) is software that facilitates the creation, organization, retrieval, and management of data in a database. It acts as an interface between the database and the users or applications, providing tools for defining, querying, and manipulating the data stored in the database. The DBMS ensures data integrity, security, and efficient management of resources.
 
 so it's just a software that writes and reads data but with some rules, you can make your dbms now if you want.   
-for example this the simplest database (Desining data intensive applications chapter 2)
+for example this the simplest database (Designing data intensive applications chapter 2)
 <img src="./images/simple-db.png">
 <img src="./images/DBMS-architecture.png">
 
 ## DBMS types
-usually we refer to databases as sql or nosql, but unfortunatelly this is not the truth :(    
+usually we refer to databases as sql or nosql, but unfortunately this is not the truth :(    
 Take a look [here](https://db-engines.com/en/ranking) you can find that there is more than 15 databases types and more than 400 databases in the current time, too many right ?
 
 each of these databases is designed to handle specific data models and use cases.   
@@ -117,13 +117,13 @@ Database modeling is the process of creating a data model for a database. A data
 
 <a id="employee"></a>
 ## Employee examples
-A CEO of a famous cooperation reached you to design a database sytem for them.   
+A CEO of a famous cooperation reached you to design a database system for them.   
 he needs to save data about the employees in each department and their titles.   
-help them mr.databaser :)   
+help them mr. data baser :)   
 
 **step1: requirement analysis**   
 Ask them about more details (what data about employees you have?, what data about departments you have?)   
-Ask more and more till you fully understand what are the requirments ?   
+Ask more and more till you fully understand what are the requirements ?   
 
 **Step2: ERD**   
 let's convert these requirements to ERD.   

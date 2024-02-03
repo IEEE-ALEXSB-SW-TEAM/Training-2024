@@ -1,5 +1,5 @@
 # DataBase Task
-hello guys i wish you gained some solid knowledge about databases know
+hello guys i wish you gained some solid knowledge about databases now
 # Table of Contents
 [0- dataset](#dataset)   
 [1- part 1](#sql)   
@@ -11,14 +11,14 @@ hello guys i wish you gained some solid knowledge about databases know
 
 ## Dataset
 
-we will use same emplyee sample data base [here](./readme.md)
+we will use same employee sample data base [here](./readme.md)
 
 you can connect to it on the server using this command ```mysql -h mysql-162195-0.cloudclusters.net -P 19994 -u test_user -p``` then enter the password but unfortunately this server is free trial and ends on 5/2/2024.   
 so we encourage you to install it locally    
 it's so easy and you need only 2 steps    
 1- clone this [repo](https://github.com/datacharmer/test_db)    
 2- run this command inside the cloned folder ```mysql -h localhost -u root -p < employees.sql``` then enter you password.   
-you know have an instance of the database on your machine.
+you now have an instance of the database on your machine.
 
 <a id="sql"></a>
 
@@ -46,7 +46,7 @@ you can expect results as in image.
 ## Part 2: 
 Ok our activities committee has a big problem they are lost in the dozens of excel sheets, so they decided to get help from you as a software expert.   
 they wanna make a registration system for the events.   
-if you attended any of our events/courses before first you fil la form to register in the event then in the event dat the reciptionist take you attendence.   
+if you attended any of our events/courses before first you fil la form to register in the event then in the event dat the receptionist take you attendance.   
 so a system like that need to store user data and event data.   
 store ??????????????????????    
 ok you got it we need a database here, so let's model our database first, we need to store this data:      
