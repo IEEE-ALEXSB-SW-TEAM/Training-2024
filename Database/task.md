@@ -4,8 +4,7 @@ hello guys i wish you gained some solid knowledge about databases know
 [0- dataset](#dataset)   
 [1- part 1](#sql)   
 [2- part 2](#register)   
-[4- submission](#submit)   
-[3- solution](#solution)   
+[3- submission](#submit)   
 
 <a id="dataset"></a>
 
@@ -13,11 +12,12 @@ hello guys i wish you gained some solid knowledge about databases know
 
 we will use same emplyee sample data base [here](./readme.md)
 
-you can connect to it on the server using this command ```mysql -h mysql-162195-0.cloudclusters.net -P 19994 -u test_user -p``` then enter the password but unfortunately this server is free trial and ends on 5/2/2024.   
-so we encourage you to install it locally    
+you can connect to it on the server using this command ```psql "postgres://avnadmin:AVNS_h63AIb3JB5U-RMMKkLo@lol-training2025.j.aivencloud.com:19087/defaultdb?sslmode=require"```        
+
+you can run it locally   
 it's so easy and you need only 2 steps    
-1- clone this [repo](https://github.com/datacharmer/test_db)    
-2- run this command inside the cloned folder ```mysql -h localhost -u root -p < employees.sql``` then enter you password.   
+follow this [repo](https://github.com/h8/employees-database)    
+   
 you know have an instance of the database on your machine.
 
 <a id="sql"></a>
@@ -102,13 +102,10 @@ ok show us your modeling skills and give us ERD and Relational model.
 <a id="submit"></a>
 
 ## Submission
-Use this [form](https://forms.gle/cnPHZnZx25gaNdBg8) to  submit before deadline.
+make a folder with you name inside the solutions folder with your files
 
-Deadline is tuesday 6/2/2024 before 12.AM (+2 GTM)
 
-<a id="solution"></a>
+Deadline is sunday 4/5/2025 before 12.AM (+2 GTM)
 
-## Solution
-[here]()   
-to be posted after deadline.
+
 

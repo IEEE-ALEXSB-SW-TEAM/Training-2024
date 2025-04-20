@@ -1,4 +1,4 @@
-# Training-2024
+# Training SW Team Alex SB
 
 this is the repo for our 2024-training materials.
 

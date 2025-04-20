@@ -11,6 +11,7 @@
 [7- employee example](#employee)   
 [8- connect to MySQL](#connect)   
 [9- sql tutorial](#sql)   
+[10- conclusion](#coclusion)
 
 ## Dataset
 <img align="right" width=300 src="./images/employees-schema.png">
@@ -88,11 +89,10 @@ Properties that guarantee the reliability of transactions in a database:
 4- Durability (D)   
 
 ## MySQL
-MySQL is an open-source relational database management system (RDBMS) that uses a structured query language (SQL) to manage, manipulate, and retrieve data.
+PostgreSQL is an open-source relational database management system (RDBMS) that uses a structured query language (SQL) to manage, manipulate, and retrieve data. It is known for its robustness, extensibility, and standards compliance.
+
 **Installation**   
-- [video for windows 10](https://youtu.be/uj4OYk5nKCg?si=jUWaTOH2JQ-dPhCm)
-- [ubuntu 22](https://linuxhint.com/install-mysql-on-ubuntu-22-04/)
-- [official website](https://dev.mysql.com/downloads/mysql/)
+- [official website](https://www.postgresql.org/download/)
 
 Just remember the password carefully.
 
@@ -185,3 +185,45 @@ we need to get/insert data from/into the database, that's our main goal.
 
 see examples [here](./examples.sql)   
 more examples [here](https://gist.github.com/wgopar/a613fe6152c217f1c6faeca39c2b2c39) and [here](https://github.com/bmonroe44/MySQL-for-BI/blob/master/employee%20database%20queries.sql)
+
+## Conclusion and further resources <a href="conclusion"></a>
+Databases are fundamental to modern software development and data management. Throughout this tutorial, we've covered essential concepts including:
+
+- Database fundamentals and importance
+- DBMS types and features
+- Relational databases and ACID properties
+- MySQL as a practical RDBMS
+- Database modeling and design
+- SQL querying and operations
+
+### Further Resources
+
+To continue your database learning journey, here are some valuable resources:
+
+- if you want to know about database internals and how this amazing software is built:   
+    1. [CMU intro top database](https://www.youtube.com/playlist?list=PLSE8ODhjZXjYDBpQnSymaectKjxCy6BYq) this is the best course in this pint from my opinion.   
+    2. [data base internals ](https://github.com/arpitn30/EBooks/blob/master/Database%20Internals.pdf) nice book if you are a bookworm
+
+- if you need a practical part:
+    1. [ahmed samy video](https://www.youtube.com/watch?v=kb-_GbpH3sQ)
+    2. [Hussien Nasser course](https://www.udemy.com/course/database-engines-crash-course/)
+
+- some additional books:
+    1.  "Database Design for Mere Mortals" by Michael J. Hernandez
+    2. "Designing Data-Intensive Applications" by Martin Kleppmann
+
+- Online Courses for sql:
+   1. [SQLZoo Interactive Tutorial](https://sqlzoo.net/)
+   2. [W3Schools SQL Tutorial](https://www.w3schools.com/sql/)
+
+- Practice Platforms for sql:
+   1. [LeetCode Database Problems](https://leetcode.com/problemset/database/)
+   2. [HackerRank SQL Challenges](https://www.hackerrank.com/domains/sql)
+   3. [SQL Fiddle](http://sqlfiddle.com/) for testing queries
+
+- Documentation:
+   1. [MySQL Official Documentation](https://dev.mysql.com/doc/)
+   2. [PostgreSQL Documentation](https://www.postgresql.org/docs/)
+   3. [SQLite Documentation](https://www.sqlite.org/docs.html)
+
+Remember that mastering databases requires both theoretical understanding and practical experience. Keep practicing with different datasets and real-world scenarios to strengthen your skills.
