@@ -1,5 +1,5 @@
 # Training SW Team Alex SB
 
-this is the repo for our 2024-training materials.
+This is the repo for our general software 2025-training materials.
 
 - [database](./Database)
